@@ -1,0 +1,7 @@
+Template: ubiquity/text/nv_qspi_update_label
+Type: text
+Description: Delete un-used bootloader partitions
+
+Template: nvqspi-update/info
+Type: text
+Description: This system has the new QSPI image (MaxSPI), we will remove the un-used bootloader partitions on your SD card to help you save some space. After this one time action completes, the image on this SD card will no longer work with the older QSPI image from JP4.4 and older. If you do not want to proceed, please power down your system and use SDK Manager to re-flash your Jetson with JP4.4 or older releases.\n\nUpdate QSPI process will take about 2 mins, press <Ok> and wait for the completion of QSPI update.
